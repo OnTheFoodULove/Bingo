@@ -1,4 +1,4 @@
-console.log("Hello World");
+console.log("Hello WORLD");
 let B = false,
 I = false,
 N = false,
