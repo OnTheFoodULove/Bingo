@@ -1,4 +1,4 @@
-console.log("Hello world")
+console.log("Hello WORLD")
 let B = false,
     I = false,
     N = false,
