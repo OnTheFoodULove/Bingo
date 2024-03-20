@@ -16,33 +16,49 @@ function newNumber(maxNumber){
       console.log(`New number ${x} belongs to "B" `);
       B = true;
       BNum = x;
-      document.querySelector("#td1").textContent =x;
+      document.querySelector("#td3").textContent =x;
+      document.querySelector("#td11").textContent =x;
+      document.querySelector("#td8").textContent =x;
+      document.querySelector("#td18").textContent =x;
+      
     } else if (x >= 16 && x <= 30) {
         console.log(`New number ${x} belongs to "I" `)
         I = true;
         INum= x;
         document.querySelector("#td2").textContent =x;
+        document.querySelector("#td12").textContent =x;
+        document.querySelector("#td6").textContent =x;
+        document.querySelector("#td20").textContent =x;
     }
 
     else if (x >= 30 && x <= 45) {
         console.log(`New number ${x} belongs to "N" `)
         N = true;
         NNum = x;
-        document.querySelector("#td3").textContent =x;
+        document.querySelector("#td4").textContent =x;
+        document.querySelector("#td14").textContent =x;
+        document.querySelector("#td7").textContent =x;
+        document.querySelector("#td17").textContent =x;
     }
 
     else if (x >= 45 && x <= 60) {
         console.log(`New number ${x} belongs to "G" `)
         G = true;
         GNum = x;
-        document.querySelector("#td4").textContent =x;
+        document.querySelector("#td5").textContent =x;
+        document.querySelector("#td15").textContent =x;
+        document.querySelector("#td10").textContent =x;
+        document.querySelector("#td20").textContent =x;
     }
 
     else if (x >= 60 && x <= 75) {
         console.log(`New number ${x} belongs to "O" `)
         O = true;
         ONum = x;
-        document.querySelector("#td5").textContent =x;
+        document.querySelector("#td1").textContent =x;
+        document.querySelector("#td16").textContent =x;
+        document.querySelector("#td9").textContent =x;
+        document.querySelector("#td21").textContent =x;
     }
     
     else {
